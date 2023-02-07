@@ -1,0 +1,94 @@
+body {
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+.background {
+  position: absolute;
+  z-index: -10;
+  background-image: url(../images/back-img.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+}
+
+.blur {
+  background: rgba(13, 12, 12, 0.2);
+  backdrop-filter: blur(16px);
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #004882;
+}
+/* ! -------------select options */
+
+.box select {
+  padding-left: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  width: 199px;
+  height: 45px;
+  font-size: 20px;
+  appearance: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+.box {
+  background: transparent;
+}
+.box::before {
+  content: url("../images/Frame.svg");
+  position: absolute;
+  top: 4px;
+  right: 5px;
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  border-radius: 50%;
+  opacity: 0.5;
+  font-size: 28px;
+  line-height: 45px;
+  background-color: #fff;
+  z-index: -10;
+}
+
+.box:hover::before {
+  opacity: 1;
+}
+
+.opt {
+  display: block;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: bold;
+  appearance: none;
+  height: 42px;
+  width: 199px;
+  background-color: rgba(160, 148, 148, 0.556);
+  color: #13003c;
+  border-radius: 10px;
+}
+options:hover {
+  background-color: white !important;
+}
+.start__opt {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__bgc {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid #000000;
+  box-shadow: 0px 10px 100px 10px rgba(255, 255, 255, 0.2);
+  filter: blur(2px);
+  border-radius: 25px;
+}

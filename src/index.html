@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>leeson-9</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <!-- <link rel="stylesheet" href="./output.css" /> -->
+    <title>Namoz vaqtlari</title>
     <!-- main css -->
-    <link rel="stylesheet" href="./src/styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <!-- boc icon -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
@@ -16,5 +18,233 @@
     />
     <!-- fonts -->
   </head>
-  <body></body>
+  <body class="">
+    <div class="background">
+      <div class="blur"></div>
+    </div>
+    <div class="main">
+      <div class="container__card mx-auto max-w-[1698px]">
+        <h1
+          class="text-white font-bold text-[32px] h-[46px] leading-[46px] text-center mt-[50px]"
+        >
+          Namoz vaqtlari
+        </h1>
+        <div
+          class="w-[70%] h-[0px] mx-auto border border-spacing-[3px] border-white opacity-50 mt-[30px]"
+        ></div>
+        <div
+          class="w-[441px] h-[46px] flex justify-between mx-auto items-center mt-[30px]"
+        >
+          <h1 class="text-white font-bold text-[20px] leading-[29px]">
+            Hududni tanlang:
+          </h1>
+          <div class="box relative flex items-center justify-center">
+            <select>
+              <option class="opt start__opt" selected>Toshkent</option>
+              <option class="opt">Qarshi</option>
+              <option class="opt">Samarqand</option>
+              <option class="opt">Termiz</option>
+              <option class="opt">Buxoro</option>
+              <option class="opt">Andijon</option>
+              <option class="opt">Farg'ona</option>
+              <option class="opt">Guliston</option>
+              <option class="opt">Urganch</option>
+              <option class="opt">Namangan</option>
+              <option class="opt">Nukus</option>
+              <option class="opt">Navoiy</option>
+              <option class="opt end__opt">Jizzax</option>
+            </select>
+          </div>
+        </div>
+        <div
+          class="flex justify-between mx-auto items-center w-[70%] mt-[70px]"
+        >
+          <h1 class="text-white font-bold text-[24px] leading-[35px]">
+            Mintaqa:
+            <span class="text-[#FFC700] font-bold text-[24px] leading-[35px]">
+              Toshkent Shahri</span
+            >
+          </h1>
+
+          <div class="flex justify-between items-center w-[423px]">
+            <img src="./images/calendar (2) 1.svg" alt="" />
+            <p
+              class="dateNamaz text-[#FFC700] font-bold text-[24px] leading-[35px]"
+            >
+              18-sentabr 2022-yil
+            </p>
+            <p
+              class="date__now text-white font-bold text-[24px] leading-[35px]"
+            >
+              20:58:03
+            </p>
+          </div>
+        </div>
+        <div class="card__wrapper w-full relative flex justify-between">
+          <div
+            class="loadingio-spinner-ripple-argrkwg8q5g absolute left-[43%] top-0 spinner hidden"
+          >
+            <div class="ldio-o7kiq4vb7fa">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Tong
+            </h1>
+            <img
+              src="./images/isha-prayer 1.png"
+              alt="isha"
+              class="absolute top-16"
+            />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Quyosh
+            </h1>
+            <img
+              src="./images/sunrise 1.png"
+              alt="isha"
+              class="absolute top-16"
+            />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Peshin
+            </h1>
+            <img src="./images/sun 1.png" alt="isha" class="absolute top-16" />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Asr
+            </h1>
+            <img
+              src="./images/sunrise (1) 1.png"
+              alt="isha"
+              class="absolute top-16"
+            />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Shom
+            </h1>
+            <img
+              src="./images/sunrise (1) 2.png"
+              alt="isha"
+              class="absolute top-16"
+            />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+          <div
+            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
+          >
+            <h1
+              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
+            >
+              Xufton
+            </h1>
+            <img src="./images/moon 1.png" alt="isha" class="absolute top-16" />
+            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
+            <div
+              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
+            ></div>
+          </div>
+        </div>
+
+        <style type="text/css">
+          @keyframes ldio-o7kiq4vb7fa {
+            0% {
+              top: 96px;
+              left: 96px;
+              width: 0;
+              height: 0;
+              opacity: 1;
+            }
+            100% {
+              top: 18px;
+              left: 18px;
+              width: 156px;
+              height: 156px;
+              opacity: 0;
+            }
+          }
+          .ldio-o7kiq4vb7fa div {
+            position: absolute;
+            border-width: 6px;
+            border-style: solid;
+            opacity: 1;
+            border-radius: 50%;
+            animation: ldio-o7kiq4vb7fa 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+          }
+          .ldio-o7kiq4vb7fa div:nth-child(1) {
+            border-color: #e90c59;
+            animation-delay: 0s;
+          }
+          .ldio-o7kiq4vb7fa div:nth-child(2) {
+            border-color: #46dff0;
+            animation-delay: -0.5s;
+          }
+          .loadingio-spinner-ripple-argrkwg8q5g {
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            overflow: hidden;
+            background: transparent;
+          }
+          .ldio-o7kiq4vb7fa {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            transform: translateZ(0) scale(1);
+            backface-visibility: hidden;
+            transform-origin: 0 0; /* see note above */
+          }
+          .ldio-o7kiq4vb7fa div {
+            box-sizing: content-box;
+          }
+          /* generated by https://loading.io/ */
+        </style>
+      </div>
+    </div>
+  </body>
 </html>
