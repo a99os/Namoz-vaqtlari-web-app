@@ -30,17 +30,18 @@
           Namoz vaqtlari
         </h1>
         <div
-          class="w-[70%] h-[0px] mx-auto border border-spacing-[3px] border-white opacity-50 mt-[30px]"
+          class="max-w-[70%] h-[0px] mx-auto border border-spacing-[3px] border-white opacity-50 mt-[30px]"
         ></div>
         <div
-          class="w-[441px] h-[46px] flex justify-between mx-auto items-center mt-[30px]"
+          class="max-w-[441px] h-[46px] flex flex-col lg:flex-row justify-between mx-auto items-center mt-[30px]"
         >
           <h1 class="text-white font-bold text-[20px] leading-[29px]">
             Hududni tanlang:
           </h1>
           <div class="box relative flex items-center justify-center">
-            <select>
-              <option class="opt start__opt" selected>Toshkent</option>
+            <select id="selectID">
+              <option class="opt selectOpt" disabled selected>Tanlang</option>
+              <option class="opt start__opt">Toshkent</option>
               <option class="opt">Qarshi</option>
               <option class="opt">Samarqand</option>
               <option class="opt">Termiz</option>
@@ -48,7 +49,7 @@
               <option class="opt">Andijon</option>
               <option class="opt">Farg'ona</option>
               <option class="opt">Guliston</option>
-              <option class="opt">Urganch</option>
+              <option class="opt">Xiva</option>
               <option class="opt">Namangan</option>
               <option class="opt">Nukus</option>
               <option class="opt">Navoiy</option>
@@ -57,138 +58,35 @@
           </div>
         </div>
         <div
-          class="flex justify-between mx-auto items-center w-[70%] mt-[70px]"
+          class="flex flex-col lg:flex-row justify-between mx-auto items-center w-[70%] mt-[70px]"
         >
           <h1 class="text-white font-bold text-[24px] leading-[35px]">
             Mintaqa:
-            <span class="text-[#FFC700] font-bold text-[24px] leading-[35px]">
-              Toshkent Shahri</span
+            <span
+              class="text-[#FFC700] font-bold text-[24px] leading-[35px] region__title"
             >
+              <!-dinamic region name  -->
+            </span>
           </h1>
 
-          <div class="flex justify-between items-center w-[423px]">
+          <div
+            class="flex flex-col lg:flex-row justify-between items-center w-[423px]"
+          >
             <img src="./images/calendar (2) 1.svg" alt="" />
             <p
               class="dateNamaz text-[#FFC700] font-bold text-[24px] leading-[35px]"
             >
-              18-sentabr 2022-yil
+              <!-dinamic date-  -->
             </p>
             <p
-              class="date__now text-white font-bold text-[24px] leading-[35px]"
+              class="date__now w-[150px] text-white font-bold text-[24px] leading-[35px]"
             >
-              20:58:03
+              <!-dinamic time  -->
             </p>
           </div>
         </div>
-        <div class="card__wrapper w-full relative flex justify-between">
-          <div
-            class="loadingio-spinner-ripple-argrkwg8q5g absolute left-[43%] top-0 spinner hidden"
-          >
-            <div class="ldio-o7kiq4vb7fa">
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Tong
-            </h1>
-            <img
-              src="./images/isha-prayer 1.png"
-              alt="isha"
-              class="absolute top-16"
-            />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Quyosh
-            </h1>
-            <img
-              src="./images/sunrise 1.png"
-              alt="isha"
-              class="absolute top-16"
-            />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Peshin
-            </h1>
-            <img src="./images/sun 1.png" alt="isha" class="absolute top-16" />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Asr
-            </h1>
-            <img
-              src="./images/sunrise (1) 1.png"
-              alt="isha"
-              class="absolute top-16"
-            />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Shom
-            </h1>
-            <img
-              src="./images/sunrise (1) 2.png"
-              alt="isha"
-              class="absolute top-16"
-            />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
-          <div
-            class="card relative w-[250px] h-[397px] mt-[82px] flex flex-col items-center justify-between py-5"
-          >
-            <h1
-              class="text-[#FFC700] font-bold text-[32px] leading-[46px] blur-none text-center"
-            >
-              Xufton
-            </h1>
-            <img src="./images/moon 1.png" alt="isha" class="absolute top-16" />
-            <p class="text-white font-bold text-[48px] leading-[69px]">04:58</p>
-            <div
-              class="card__bgc w-[250px] h-[397px] absolute top-0 left-0 -z-10"
-            ></div>
-          </div>
+        <div class="card__control relative">
+          <!-- dinamic data -->
         </div>
 
         <style type="text/css">
@@ -247,4 +145,6 @@
       </div>
     </div>
   </body>
+  <script src="./scripts/utils.js"></script>
+  <script src="./scripts/main.js"></script>
 </html>
